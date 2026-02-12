@@ -18,5 +18,9 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Pure.Chart.Model.Abstractions" Version="0.1.0-preview.0.1.0" />
+    <PackageReference
+      Include="Pure.Chart.RelationalModel.Abstractions"
+      Version="0.1.0-preview.2.0.0"
+    />
   </ItemGroup>
 </Project>
