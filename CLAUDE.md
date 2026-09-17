@@ -14,6 +14,8 @@ dotnet format && csharpier format .           # auto-fix code style
 dotnet pack --configuration Release -p:Version=<version> --output .
 ```
 
+CI additionally passes `-p:AssemblyVersion` (pinned to the major) and `-p:FileVersion`; see `.github/workflows/publish-nuget.yml`.
+
 There are no test projects in this repository — the CI pipeline only builds and checks formatting.
 
 ## Architecture
