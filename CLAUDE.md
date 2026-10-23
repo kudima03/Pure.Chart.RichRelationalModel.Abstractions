@@ -42,7 +42,7 @@ IChartTypeRichRelationalModel : IChartType, IChartTypeRelationalModel
 (`IsAotCompatible = true`).
 
 **Package validation:** `EnablePackageValidation = true` with
-`PackageValidationBaselineVersion = 0.1.0-preview.4.0.0`. Breaking changes fail the build.
+`PackageValidationBaselineVersion = 0.1.0-preview.5.0.0`. Breaking changes fail the build.
 
 **Publishing:** triggered by pushing a semver tag (e.g. `0.1.0-preview.5.0.0`). The tag becomes
 the `PackageVersion`. Packages are published to both GitHub Packages and NuGet.org.
