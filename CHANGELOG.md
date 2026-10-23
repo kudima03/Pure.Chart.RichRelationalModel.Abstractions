@@ -6,6 +6,25 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.1.0-preview.5.0.0] — 2026-10-23
+
+### Added
+
+- **`IChartSeriesRichRelationalModel`** now inherits `LineType` (`IString`,
+  the style used to draw the series line) from the upstream `IChartSeries`
+  and `IChartSeriesRelationalModel` interfaces.
+- `README.md` is now packed into the NuGet package.
+
+### Changed
+
+- **Breaking:** implementers of `IChartSeriesRichRelationalModel` must now
+  provide `LineType`.
+- Bumped `Pure.Chart.Model.Abstractions` to `0.1.0-preview.2.0.0` and
+  `Pure.Chart.RelationalModel.Abstractions` to `0.1.0-preview.7.0.0`.
+- The assembly version is now derived from the release tag's major
+  version (`0.0.0.0` for `0.x` releases) instead of the SDK default
+  `1.0.0.0`; the file version is the tag's numeric part.
+
 ## [0.1.0-preview.4.0.0] — 2026-04-26
 
 - Maintenance release: bumped the `Pure.Chart.RelationalModel.Abstractions` dependency
