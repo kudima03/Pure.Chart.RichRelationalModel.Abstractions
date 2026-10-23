@@ -21,7 +21,7 @@ identity on the same object.
 |---|---|---|
 | `IChartRichRelationalModel` | `IChart`, `IChartRelationalModel` | Chart entity with title, description, type navigation, axis navigations, series collection, plus `Id`, `TypeId`, `XAxisId`, `YAxisId` FK columns |
 | `IAxisRichRelationalModel` | `IAxis`, `IAxisRelationalModel` | Axis entity with `Legend` property plus `Id` |
-| `IChartSeriesRichRelationalModel` | `IChartSeries`, `IChartSeriesRelationalModel` | Chart series entity with legend, axis-source properties, plus `Id` and `ChartId` FK |
+| `IChartSeriesRichRelationalModel` | `IChartSeries`, `IChartSeriesRelationalModel` | Chart series entity with legend, axis-source and line-type properties, plus `Id` and `ChartId` FK |
 | `IChartTypeRichRelationalModel` | `IChartType`, `IChartTypeRelationalModel` | Chart-type entity with `Name` property plus `Id` |
 
 All interfaces live in the `Pure.Chart.RichRelationalModel.Abstractions` namespace.
