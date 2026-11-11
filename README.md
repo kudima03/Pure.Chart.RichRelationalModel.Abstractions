@@ -49,6 +49,7 @@ All interfaces live in the `Pure.Chart.RichRelationalModel.Abstractions` namespa
 - .NET 8
 - .NET 9
 - .NET 10
+- .NET 11
 
 ## Installation
 

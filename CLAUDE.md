@@ -38,7 +38,7 @@ IChartSeriesRichRelationalModel : IChartSeries, IChartSeriesRelationalModel
 IChartTypeRichRelationalModel : IChartType, IChartTypeRelationalModel
 ```
 
-**Multi-targeting:** net7.0, net8.0, net9.0, net10.0. All interfaces must remain AOT-compatible
+**Multi-targeting:** net7.0, net8.0, net9.0, net10.0, net11.0. All interfaces must remain AOT-compatible
 (`IsAotCompatible = true`).
 
 **Package validation:** `EnablePackageValidation = true` with
