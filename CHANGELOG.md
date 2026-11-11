@@ -6,6 +6,19 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.1.0-preview.5.1.0] — 2026-11-11
+
+### Added
+
+- Added `net11.0` as a target framework.
+
+### Changed
+
+- Bumped `Pure.Chart.Model.Abstractions` to `0.1.0-preview.2.1.0` and
+  `Pure.Chart.RelationalModel.Abstractions` to `0.1.0-preview.7.1.0`
+  (the .NET 11 releases).
+- CI, devcontainer and documentation now use .NET 11.
+
 ## [0.1.0-preview.5.0.0] — 2026-10-23
 
 ### Added
